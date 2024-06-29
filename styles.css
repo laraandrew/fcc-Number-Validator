@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     transition: background 0.5s;
   }
@@ -67,9 +67,29 @@ body {
 
   footer {
     display: flex;
-    padding: 2em 0;
-    width: 100vh;
+    gap: 0.4em;
+    justify-content: center;
+    align-items: center;
+    padding: .75em 0;
+    width: 100%;
     bottom: 0;
     position: fixed;
     background-color: #39587e;
+    margin-top: 40px
+  }
+
+  footer img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    transition: transform 0.3s;
+  }
+
+   footer img:hover {
+    transform: scale(1.2);
+  }
+  
+  footer h3{
+    font-weight: bold;
+
   }
