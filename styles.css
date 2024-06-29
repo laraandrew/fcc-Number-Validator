@@ -16,6 +16,7 @@ body {
     background: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
+    margin: 0 1em;
   }
   
   .container:hover {
@@ -36,6 +37,7 @@ body {
   
   input {
     width: 80%;
+    margin-bottom: 1em;
   }
   
   button {
@@ -55,6 +57,7 @@ body {
     font-weight: bold;
     transition: opacity 0.5s;
     opacity: 0;
+    margin-bottom: 0.5em;
   }
   
   #results-div.show {
