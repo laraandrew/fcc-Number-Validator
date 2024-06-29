@@ -64,3 +64,12 @@ body {
     opacity: 1;
   }
   
+
+  footer {
+    display: flex;
+    padding: 2em 0;
+    width: 100vh;
+    bottom: 0;
+    position: fixed;
+    background-color: #39587e;
+  }
